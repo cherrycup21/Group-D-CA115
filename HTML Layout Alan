@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Game Technology"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Flex E-Pen</title>
+
+		<link rel="stylesheet" type="text/css" href="./css/layout.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">        
+	</head>
+	
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="images/[Original size] ngineX.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <img src="images/download.png" class="cart">
+
+        </div>
+    
+
+    <div class="content">
+        <a href="" class="btn">Pen Of The Future</a>
+        <h1>Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Est, atque?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, iste!</p>
+    </div>
+
+    <img src="images/91375.jpg" class="feature-img">
+
+</div>
+
+
+	
+</body>
+</html>
