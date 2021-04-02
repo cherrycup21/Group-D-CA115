@@ -1,0 +1,137 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+   /* clip-path: polygon(51% 0, 21% 51%, 59% 100%, 0 100%, 0% 50%, 0 0);*/
+    background-image: url(../images/background.pn);
+    background-position: center;
+    background-size: cover;
+    padding-left:5% ;
+    padding-right: 5%;
+    padding-top: 2%;
+    box-sizing: border-box;
+    position:relative;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 	400px;
+    cursor: pointer;
+    
+}
+
+.cart{
+    width: 	100px;
+}
+
+nav{
+    flex: 1;
+    padding-left:60px ;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    background: linear-gradient(45deg, #00AEFF, #0FFF00 );
+    border-radius: 8px;
+    padding:10px 20px;
+    box-shadow: 3px 8px 22px rgba(94,28,68,20);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color:black;
+}
+
+.content p{
+    font-size: 20px;
+    color: #003EFF  ;
+    font-weight: 100;
+}
+
+.content{
+    margin-left: 5% ;
+    margin-top: 5%;
+}
+
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #00AEFF, #0FFF00 );
+    border-radius: 8px;
+    padding:10px 20px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 8px 22px rgba(94,28,68,20);
+}
+
+.feature-img{
+    height: 50%;
+    position: absolute;
+    bottom: 200px;
+    right: 10%;
+    border-radius: 80%;
+    box-shadow: 3px 8px 22px;
+    opacity: 100%;
+}
+
+.description {
+    margin: 20px;
+}
+
+#Buy h2 {
+    color:white;
+    background-color: black;
+    border: 2px solid white;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+}
+
+#Buy h2:hover {
+    color:black;
+    background-color: white;
+    border: 2px solid black;
+    border-color: black;
+}
+
+.specifications table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.speficications table, td, th {
+    border: 1px solid black;
+  }
+
+.specifications tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.specifications img {
+    height: 80px;
+    width:auto;
+    padding: 10px;
+}
