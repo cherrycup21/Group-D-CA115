@@ -20,7 +20,7 @@ html {
     padding: 0;
     border: 0;
     overflow: hidden;
-    background-image: linear-gradient(to right, #48297A, #973595);
+    background-image: linear-gradient(to right, #2D7DD2, #A0EADE);
     
 }
 .page-nav li {
@@ -75,10 +75,10 @@ html {
     font-size: 200%;
 }
 body{
-    background-color: #191A24;
+    background-color: #ffe066;
     /* background-image: linear-gradient(to right, #000000, #2A2C3C); */
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: black;
     margin:0;
     padding: 0;
 }
