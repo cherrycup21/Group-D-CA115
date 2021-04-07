@@ -1,0 +1,266 @@
+/* Box-Sizing */
+* {
+   box-sizing: border-box;
+   padding: 25px;
+   margin: 0;
+   text-decoration: none;
+}
+
+/* element styling */
+
+body {
+   background-color: white;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: "Courier New", Courier, monospace;
+   color: #ffffff;
+}
+
+section {
+   margin: 20px;
+   padding: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+   font-family: "Josefin Sans", sans-serif;
+}
+
+a,
+p,
+ {
+   font-family: "Open Sans", sans-serif;
+}
+
+
+/* Header styles */
+.page-header {
+  text-align: center;
+}
+
+header {
+   display: flex;
+   flex-direction: row;
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   background-color: #111111;
+   background-image: linear-gradient(to right, #0066ff, #00ff00);
+   color: black;
+   border-bottom: 4px solid yellow;
+   height: auto;
+   width: 100%;
+   font-size: 1.5rem;
+}
+
+/* Nav Styles */
+.topnav {
+       margin-top:50px;
+       overflow: hidden;
+       background-color: lightgreen;
+       text-align: center;
+       border: 6px dotted yellow;
+       border-radius: 10px;
+       box-shadow: 5px 5px 5px blue;
+
+     }
+
+.topnav a {
+       float: left;
+       display: block;
+       color: black;
+       text-align: center;
+       font-size: 1.5rem;
+       padding: 16px 40px;
+       text-decoration: none;
+     }
+
+.topnav a:hover {
+       background-color: yellow;
+       color: black;
+     }
+
+nav {
+
+   background-color: #1a1b25;
+   position: absolute;
+   right: 6rem;
+
+}
+
+
+/* Main Layout */
+main {
+   padding-top: 100px; /* Stops the header going over the main content*/
+   margin: 0 auto;
+   width: 80%;
+}
+
+/* Styling for sections */
+.content {
+   display: flex;
+}
+.create h2{
+  font-size: 3rem;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: black;
+  border: 4px yellow;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px blue;
+}
+.feather{
+  margin-left: 900px;
+  margin-top: -350px;
+}
+
+.lilly-container h2{
+  color: black;
+
+}
+
+.column {
+   flex: 50%;
+   font-size: 1.3rem;
+   padding: 10px;
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   background-color: rgba(
+      0,
+      0,
+      0,
+      0.8
+   ); /* rgba(): is used to pick a specific colour and the opacity level */
+   border: 4px solid yellow;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px blue;
+}
+
+.column2{
+  flex: 50%;
+  font-size: 1.3rem;
+  background-color: rgba(
+     0,
+     0,
+     0,
+     0.8
+  ); /* rgba(): is used to pick a specific colour and the opacity level */
+  border: 4px solid yellow;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px blue;
+  margin-left:auto;
+  margin-top: -250px;
+  padding-top: 50px;
+
+}
+
+.column2 p{
+  margin-top: -35xpx;
+}
+
+.column h2 {
+   margin: 0 0 1.8rem 0;
+   font-size: 2rem;
+   font-family: "Vast Shadow", cursive;
+}
+
+.column img {
+   height:500px;
+   width: 370px;
+   margin-left:-10px;
+   margin-top: -12px;
+}
+
+/*contact.html*/
+.column3{
+     flex: 50%;
+     font-size: 1.3rem;
+     padding: 10px;
+     margin-right: auto;
+     margin-bottom: -100px;
+     margin-top: 25px;
+     background-color: rgba(
+        0,
+        0,
+        0,
+        0.8
+     ); /* rgba(): is used to pick a specific colour and the opacity level */
+     border: 4px solid yellow;
+     border-radius: 10px;
+     box-shadow: 5px 5px 5px blue;
+}
+
+
+.contact-me{
+text-align: center;
+}
+
+.forma{
+border:1px solid;
+border-color:yellow;
+border-width: thick;
+margin: 10px 0;
+padding: 12px 18px;
+border-radius:8px;
+}
+.call label{
+
+   font-family: "Josefin Sans", sans-serif;
+
+}
+
+.contact-me label, textarea{
+display: block;
+text-align: top;
+}
+.contact-me input, textarea{
+width: 100%;
+border: none;
+background: none;
+outline: none;
+font-size: 18px;
+margin-top: 6px;
+color: white;
+}
+
+.sbutton{
+border: 3px solid black;
+display: block;
+background:white;
+padding: 1px;
+padding-bottom: 2px;
+width: 20%;
+margin: auto;
+margin-bottom: 2px;
+}
+.sbutton input{
+color: black;
+font-size: 90%;
+font-family: 'Yeseva One', cursive;
+}
+.sbutton:hover{
+background: yellow;
+}
+
+
+/* Footer Styling */
+
+footer {
+   border-top: 2px solid #ffffff;
+   background-color: #111111;
+   margin: 25px 0px 0px 0px;
+   padding: 1rem;
+}
+
+footer p,
+a {
+   text-align: center;
+   color: #f3f4fa;
+   margin: 0;
+   padding: 0;
+}
+/* References */
